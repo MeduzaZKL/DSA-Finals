@@ -6,7 +6,6 @@ public class Main {
 
         System.out.println("Wassup Gay");
 
-        System.out.println("Wassup Gay");
     }
 
 }
