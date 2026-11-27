@@ -13,6 +13,8 @@ public class main {
             JOptionPane.showMessageDialog(null, "The number is odd.");
         }
 
+        
+
     }
 
 }
