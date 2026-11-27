@@ -12,11 +12,6 @@ public class main {
         } else {
             JOptionPane.showMessageDialog(null, "The number is odd.");
         }
-
-        
-
-        
-
     }
 
 }
