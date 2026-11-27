@@ -1,14 +1,17 @@
-public class Main {
+import javax.swing.JOptionPane;
+
+public class main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
+        String input = JOptionPane.showInputDialog("Enter a number:");
+        int number = Integer.parseInt(input);
 
-        System.out.println("Wassup Gay");
-
-        System.out.println("Testing");
-
-        System.out.println("Testing 2");
+        if (number % 2 == 0) {
+            JOptionPane.showMessageDialog(null, "The number is even.");
+        } else {
+            JOptionPane.showMessageDialog(null, "The number is odd.");
+        }
 
     }
 
