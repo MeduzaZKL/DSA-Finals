@@ -1,17 +1,17 @@
-import javax.swing.JOptionPane;
+import java.awt.Color;
+import javax.swing.JFrame;
 
 public class main {
 
     public static void main(String[] args) {
 
-        String input = JOptionPane.showInputDialog("Enter a number:");
-        int number = Integer.parseInt(input);
+        JFrame frame = new JFrame();
+        frame.setSize(1000, 750);
+        frame.setTitle("My Application");
+        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        frame.setResizable(false);
+        frame.setVisible(true);
 
-        if (number % 2 == 0) {
-            JOptionPane.showMessageDialog(null, "The number is even.");
-        } else {
-            JOptionPane.showMessageDialog(null, "The number is odd.");
-        }
+        frame.getContentPane().setBackground(Color.CYAN);
     }
-
 }
