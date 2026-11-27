@@ -7,11 +7,11 @@ public class main {
 
         JFrame frame = new JFrame();
         frame.setSize(1000, 750);
-        frame.setTitle("My Application");
+        frame.setTitle("Main");
         frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         frame.setResizable(false);
         frame.setVisible(true);
 
-        frame.getContentPane().setBackground(Color.CYAN);
+        frame.getContentPane().setBackground(new Color(186, 219, 222));
     }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Signup",
+            "request": "launch",
+            "mainClass": "authentication.Signup",
+            "projectName": "DSA - Finals_189431af"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "authentication.Login",
+            "projectName": "DSA - Finals_189431af"
+        },
+        {
+            "type": "java",
             "name": "main",
             "request": "launch",
             "mainClass": "main",
