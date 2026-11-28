@@ -2,6 +2,7 @@
 
 ### NetBeans GUI project
 
+```text
 Java/
   src/
     authentication/
@@ -12,4 +13,4 @@ Java/
     dashboard/
       MainDashboardFrame.java
       MainDashboardFrame.form
-
+```
